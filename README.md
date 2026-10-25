@@ -1,6 +1,9 @@
 # DayLens
-https://ukgokul.github.io/daily_tracker/#today
-**See what shapes your days.**
+
+[![CI](https://github.com/UKGokul/daylens/actions/workflows/ci.yml/badge.svg)](https://github.com/UKGokul/daylens/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
+**See what shapes your days.** · [Live demo](https://ukgokul.github.io/daylens/#today)
 
 DayLens is a privacy-first, local-first personal analytics dashboard that combines lightweight task planning, custom habits/metrics, sleep, focus time, spending and daily notes into one understandable view of the day.
 
@@ -42,8 +45,8 @@ The insight engine is deterministic and transparent; it reports associations, no
 No build step is required.
 
 ```bash
-git clone https://github.com/UKGokul/daily_tracker.git
-cd daily_tracker
+git clone https://github.com/UKGokul/daylens.git
+cd daylens
 python -m http.server 8000
 ```
 
